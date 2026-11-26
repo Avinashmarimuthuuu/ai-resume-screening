@@ -14,7 +14,13 @@
 
 
 
-**My changes:** In progress, will be updated after my modifications.
+**My changes:**
+- Renamed the app title to "Resume-Job Matcher by Avinash" and added credit to the original author in the sidebar
+- Added a sidebar summary showing the number of resumes and job descriptions loaded
+- Added Download buttons to save the BERT and Doc2Vec results as JSON
+
+
+
 
 
 
