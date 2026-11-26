@@ -30,7 +30,7 @@ def main():
                        preprocessed_path=PREPROCESSED_PATH)
     jd_text, jd_name = get_txt_list(PREPROCESSED_JD_PATH)
     cv_text, cv_names = get_txt_list(PREPROCESSED_PATH)
-        st.sidebar.info(f"Resumes: {len(cv_names)} | Job descriptions: {len(jd_name)}")
+    st.sidebar.info(f"Resumes: {len(cv_names)} | Job descriptions: {len(jd_name)}")
 
     # Remove cached files
     if os.path.exists(UPLOADED_FILE_PATH):
@@ -73,7 +73,7 @@ def main():
             )
             with results_expander:
                 st.json(BERT_json_results)
-                                st.download_button("Download results", data=json.dumps(BERT_json_results, indent=2, default=str), file_name="bert_results.json", mime="application/json")
+     st.download_button("Download results", data=json.dumps(BERT_json_results, indent=2, default=str), file_name="bert_results.json", mime="application/json")
 
     if st.button("Get Recommendation with Doc2Vec model"):
 
