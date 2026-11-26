@@ -1,4 +1,36 @@
-# Description
+# Resume-Job Matcher
+
+**Student:** Avinash M
+
+
+**College:** Periyar Maniammai Institute of Science and Technology
+
+
+**Year:** Final Year BSc Computer Science
+
+
+
+**Based on:** https://github.com/PhamVuThuNguyet/ai-resume-screening (original author: PhamVuThuNguyet)
+
+
+
+**My changes:** In progress, will be updated after my modifications.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---# Description
 We have built a Resume & Job Description Matching System using Deep Learning.
 
 # Installation
