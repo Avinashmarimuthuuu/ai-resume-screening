@@ -73,7 +73,7 @@ def main():
             )
             with results_expander:
                 st.json(BERT_json_results)
-     st.download_button("Download results", data=json.dumps(BERT_json_results, indent=2, default=str), file_name="bert_results.json", mime="application/json")
+                st.download_button("Download results", data=json.dumps(BERT_json_results, indent=2, default=str), file_name="bert_results.json", mime="application/json")
 
     if st.button("Get Recommendation with Doc2Vec model"):
 
@@ -99,7 +99,7 @@ def main():
                 "Click here for result"
             )
                 st.json(doc2vec_json_results)
-                            st.download_button("Download results", data=json.dumps(doc2vec_json_results, indent=2, default=str), file_name="doc2vec_results.json", mime="application/json")
+                st.download_button("Download results", data=json.dumps(doc2vec_json_results, indent=2, default=str), file_name="doc2vec_results.json", mime="application/json")
 
 
 if __name__ == "__main__":
