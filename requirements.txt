@@ -12,3 +12,8 @@ Pillow
 psutil
 nltk
 unidecode
+img2pdf
+PyPDF2
+pdfminer.six
+python-docx
+docx2pdf
