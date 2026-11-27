@@ -1,5 +1,4 @@
 import json
-import pythoncom
 from utils import *
 from config import *
 import torch
@@ -10,8 +9,6 @@ from sentence_transformers import SentenceTransformer
 logging.basicConfig(
     format="%(asctime)s : %(levelname)s : %(message)s", level=logging.INFO
 )
-
-
 def main():
     st.title("Resume-Job Matcher by Avinash")
     image = Image.open("./image/akatsuki_logo.png")
@@ -19,7 +16,6 @@ def main():
     st.sidebar.markdown(
                 "Based on ai-resume-screening by PhamVuThuNguyet (github.com/PhamVuThuNguyet/ai-resume-screening). Modified by Avinash Marimuthu."
     )
-    pythoncom.CoInitialize()
     uploaded_files = st.file_uploader("Choose a PDF file", accept_multiple_files=True)
     for uploaded_file in uploaded_files:
         st.write("filename:", uploaded_file.name)
