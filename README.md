@@ -19,6 +19,8 @@
 - Added a sidebar summary showing the number of resumes and job descriptions loaded
 - Added Download buttons to save the BERT and Doc2Vec results as JSON
 
+**Live demo:** https://avinash-resume-job-matcher.streamlit.app/
+
 
 
 
