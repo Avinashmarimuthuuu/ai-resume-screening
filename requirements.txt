@@ -11,3 +11,4 @@ keras-tcn
 Pillow
 psutil
 nltk
+unidecode
